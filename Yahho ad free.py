@@ -11,7 +11,7 @@ chrome_driver.get('https://login.yahoo.com')
 
 username_textbox=chrome_driver.find_element_by_id("login-username")
 
-username_textbox.send_keys("xxxxxxxxxxxxxxxxx@yahoo.com")
+username_textbox.send_keys("xxxxxxxxxxxxxxxxx@yahoo.com")#username
 t.sleep(3)
 next_btn=chrome_driver.find_element_by_id("login-signin")
 next_btn.click()
